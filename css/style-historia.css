@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(180deg, #ffffff, #ffd6e8);
+    /*text-align: center;*/
+    /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    color: #ce1c3d;
+}
+
+#mini-libro {
+    display: block;  /*Centrado*/
+    margin: 0 auto;  /*De imagen*/
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+
+
+.parte-introductoria {
+    
+    margin: 40px 40px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+
+}
+
+.pie-pagina {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#btnVolver {
+    padding: 12px 26px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff4d6d;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#btnVolver:hover {
+    background-color: #ff335c;
+    transform: scale(1.05);
+}
+
